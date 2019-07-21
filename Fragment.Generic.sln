@@ -1,6 +1,6 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragment.Generic", "Fragment.Generic\Fragment.Generic.csproj", "{EA0D2A81-0631-410B-B0F8-76F3B3FD165B}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragment.Generic.Core", "Fragment.Generic.Core\Fragment.Generic.Core.csproj", "{EA0D2A81-0631-410B-B0F8-76F3B3FD165B}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
