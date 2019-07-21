@@ -4,6 +4,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragment.Generic.Core", "Fr
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragment.Generic.Api", "Fragment.Generic.Api\Fragment.Generic.Api.csproj", "{6151E48E-046C-4630-AFA2-5A079AF132BB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Fragment.Generic.App", "Fragment.Generic.App\Fragment.Generic.App.csproj", "{79C7B120-C4B5-48BB-A010-A197A4FE154A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{6151E48E-046C-4630-AFA2-5A079AF132BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6151E48E-046C-4630-AFA2-5A079AF132BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6151E48E-046C-4630-AFA2-5A079AF132BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{79C7B120-C4B5-48BB-A010-A197A4FE154A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{79C7B120-C4B5-48BB-A010-A197A4FE154A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{79C7B120-C4B5-48BB-A010-A197A4FE154A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{79C7B120-C4B5-48BB-A010-A197A4FE154A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
