@@ -1,0 +1,25 @@
+### YamlMime:TableOfContent
+- uid: Fragment.Generic.Api
+  name: Fragment.Generic.Api
+  items:
+  - uid: Fragment.Generic.Api.Program
+    name: Program
+  - uid: Fragment.Generic.Api.Startup
+    name: Startup
+- uid: Fragment.Generic.Api.Controllers
+  name: Fragment.Generic.Api.Controllers
+  items:
+  - uid: Fragment.Generic.Api.Controllers.AppController
+    name: AppController
+- uid: Fragment.Generic.App
+  name: Fragment.Generic.App
+  items:
+  - uid: Fragment.Generic.App.Program
+    name: Program
+  - uid: Fragment.Generic.App.Startup
+    name: Startup
+- uid: Fragment.Generic.App.Extensions
+  name: Fragment.Generic.App.Extensions
+  items:
+  - uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+    name: AppMiddlewareExtensions

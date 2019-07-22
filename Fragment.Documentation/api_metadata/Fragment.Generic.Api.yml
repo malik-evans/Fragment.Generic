@@ -1,0 +1,28 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fragment.Generic.Api
+  commentId: N:Fragment.Generic.Api
+  id: Fragment.Generic.Api
+  children:
+  - Fragment.Generic.Api.Program
+  - Fragment.Generic.Api.Startup
+  langs:
+  - csharp
+  - vb
+  name: Fragment.Generic.Api
+  nameWithType: Fragment.Generic.Api
+  fullName: Fragment.Generic.Api
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Fragment.Generic.Api.Program
+  commentId: T:Fragment.Generic.Api.Program
+  name: Program
+  nameWithType: Program
+  fullName: Fragment.Generic.Api.Program
+- uid: Fragment.Generic.Api.Startup
+  commentId: T:Fragment.Generic.Api.Startup
+  name: Startup
+  nameWithType: Startup
+  fullName: Fragment.Generic.Api.Startup
