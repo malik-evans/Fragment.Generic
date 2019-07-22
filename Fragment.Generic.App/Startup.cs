@@ -1,14 +1,12 @@
-using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Threading.Tasks;
+using Fragment.Generic.App.Extensions;
+using Fragment.Generic.App.Helpers;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
 using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.HttpsPolicy;
 using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
+
 
 namespace Fragment.Generic.App
 {
@@ -31,8 +29,10 @@ namespace Fragment.Generic.App
                 options.MinimumSameSitePolicy = SameSiteMode.None;
             });
 
-
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddOptions();
+            services.Configure<AppStaticRoutes>(Configuration.GetSection("StaticRoutes"));
+            services.AddSpaStaticFiles(options => { options.RootPath = "ClientApp/dist"; });
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
@@ -49,9 +49,12 @@ namespace Fragment.Generic.App
                 app.UseHsts();
             }
 
+            app.UseCookiePolicy();
             app.UseHttpsRedirection();
             app.UseStaticFiles();
-            app.UseCookiePolicy();
+            app.UseSpaStaticFiles(); // integration Client files
+            app.UseApiDocumentation();
+            app.UseBrowserDocumentation();
 
             app.UseMvc();
         }

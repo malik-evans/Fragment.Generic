@@ -9,6 +9,8 @@
     <ItemGroup>
         <PackageReference Include="Microsoft.AspNetCore.App" />
         <PackageReference Include="Microsoft.AspNetCore.Razor.Design" Version="2.2.0" PrivateAssets="All" />
+        <PackageReference Include="Microsoft.AspNetCore.SpaServices" Version="2.2.0" />
+        <PackageReference Include="WebApiContrib.Core" Version="2.2.1" />
     </ItemGroup>
 
 
@@ -54,6 +56,11 @@
       <_ContentIncludedByDefault Remove="ClientApp\tsconfig.json" />
       <_ContentIncludedByDefault Remove="ClientApp\tsconfig.spec.json" />
       <_ContentIncludedByDefault Remove="ClientApp\tslint.json" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <Folder Include="dist" />
     </ItemGroup>
 
 </Project>

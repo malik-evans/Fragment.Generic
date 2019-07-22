@@ -1,0 +1,26 @@
+@page
+
+@{
+    Layout = null;
+}
+
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Integration</title>
+  <base href="/Integration">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="icon" type="image/x-icon" href="favicon.ico">
+<link rel="stylesheet" href="styles.css"></head>
+<body>
+  <app-root></app-root>
+    <script src="integration/runtime-es2015.js" type="module"></script>
+    <script src="integration/polyfills-es2015.js" type="module"></script>
+    <script src="integration/runtime-es5.js" nomodule></script>
+    <script src="integration/polyfills-es5.js" nomodule></script>
+    <script src="integration/vendor-es2015.js" type="module"></script>
+    <script src="integration/main-es2015.js" type="module"></script>
+    <script src="integration/vendor-es5.js" nomodule></script>
+    <script src="integration/main-es5.js" nomodule></script></body>
+</html>
