@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fragment.Generic.Api.Controllers
+  commentId: N:Fragment.Generic.Api.Controllers
+  id: Fragment.Generic.Api.Controllers
+  children:
+  - Fragment.Generic.Api.Controllers.AppController
+  langs:
+  - csharp
+  - vb
+  name: Fragment.Generic.Api.Controllers
+  nameWithType: Fragment.Generic.Api.Controllers
+  fullName: Fragment.Generic.Api.Controllers
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Fragment.Generic.Api.Controllers.AppController
+  commentId: T:Fragment.Generic.Api.Controllers.AppController
+  name: AppController
+  nameWithType: AppController
+  fullName: Fragment.Generic.Api.Controllers.AppController

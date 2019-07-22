@@ -1,0 +1,96 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fragment.Generic.Api.Controllers.AppController
+  commentId: T:Fragment.Generic.Api.Controllers.AppController
+  id: AppController
+  parent: Fragment.Generic.Api.Controllers
+  children:
+  - Fragment.Generic.Api.Controllers.AppController.Index
+  langs:
+  - csharp
+  - vb
+  name: AppController
+  nameWithType: AppController
+  fullName: Fragment.Generic.Api.Controllers.AppController
+  type: Class
+  source:
+    id: AppController
+    path: ''
+    startLine: 73
+  assemblies:
+  - cs.temp.dll
+  namespace: Fragment.Generic.Api.Controllers
+  summary: "\nAppController\n"
+  example: []
+  syntax:
+    content: 'public class AppController : Controller'
+    content.vb: >-
+      Public Class AppController
+
+          Inherits Controller
+  inheritance:
+  - System.Object
+  modifiers.csharp:
+  - public
+  - class
+  modifiers.vb:
+  - Public
+  - Class
+- uid: Fragment.Generic.Api.Controllers.AppController.Index
+  commentId: M:Fragment.Generic.Api.Controllers.AppController.Index
+  id: Index
+  parent: Fragment.Generic.Api.Controllers.AppController
+  langs:
+  - csharp
+  - vb
+  name: Index()
+  nameWithType: AppController.Index()
+  fullName: Fragment.Generic.Api.Controllers.AppController.Index()
+  type: Method
+  source:
+    id: Index
+    path: ''
+    startLine: 75
+  assemblies:
+  - cs.temp.dll
+  namespace: Fragment.Generic.Api.Controllers
+  syntax:
+    content: public IActionResult Index()
+    return:
+      type: IActionResult
+    content.vb: Public Function Index As IActionResult
+  overload: Fragment.Generic.Api.Controllers.AppController.Index*
+  modifiers.csharp:
+  - public
+  modifiers.vb:
+  - Public
+references:
+- uid: Fragment.Generic.Api.Controllers
+  commentId: N:Fragment.Generic.Api.Controllers
+  name: Fragment.Generic.Api.Controllers
+  nameWithType: Fragment.Generic.Api.Controllers
+  fullName: Fragment.Generic.Api.Controllers
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fragment.Generic.Api.Controllers.AppController.Index*
+  commentId: Overload:Fragment.Generic.Api.Controllers.AppController.Index
+  name: Index
+  nameWithType: AppController.Index
+  fullName: Fragment.Generic.Api.Controllers.AppController.Index
+- uid: IActionResult
+  commentId: '!:IActionResult'
+  isExternal: true
+  name: IActionResult
+  nameWithType: IActionResult
+  fullName: IActionResult
