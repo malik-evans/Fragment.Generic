@@ -1,0 +1,28 @@
+version: "3"
+
+networks:
+   frontend:
+
+services:
+
+  app:
+    image: malik393/fragment-generic-app
+    container_name: fragment-generic
+    build:
+      context: .
+      dockerfile: Fragment.Generic.App/Dockerfile
+    ports:
+      - 3000:3000
+    networks:
+      - frontend
+
+  api:
+    image: malik393/fragment-generic-api
+    container_name: fragment-generic
+    build:
+      context: .
+      dockerfile: Fragment.Generic.Api/Dockerfile
+    ports:
+      - 5001:5001
+    networks:
+      - frontend

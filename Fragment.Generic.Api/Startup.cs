@@ -35,6 +35,7 @@ namespace Fragment.Generic.Api
             }
 
             app.UseHttpsRedirection();
+
             app.UseMvc();
         }
     }

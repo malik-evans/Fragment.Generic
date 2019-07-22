@@ -2,7 +2,8 @@
 <project version="4">
   <component name="VcsDirectoryMappings">
     <mapping directory="$PROJECT_DIR$" vcs="Git" />
-    <mapping directory="$PROJECT_DIR$/Fragment.Docs" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Documentation" vcs="" />
     <mapping directory="$PROJECT_DIR$/Fragment.Generic.App/ClientApp" vcs="Git" />
+    <mapping directory="$PROJECT_DIR$/Fragment.Generic.Client/ClientApp" vcs="Git" />
   </component>
 </project>

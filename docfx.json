@@ -1,0 +1,75 @@
+{
+  "metadata": [
+    {
+      "src": [
+        {
+          "files": [
+            "Fragment.Generic.Api/**/**",
+            "Fragment.Generic.Core/**/**",
+            "Fragment.Generic.App/**/**"
+          ],
+          "exclude": [
+            "**/bin/**",
+            "**/obj/**",
+            "Fragment.Generic.App/dist/**"]
+        }
+      ],
+      "dest": "Fragment.Documentation/api_metadata"
+    },
+    {
+      "src": [
+        {
+          "files": [
+            "Fragment.Generic.App/ClientApp/**"
+          ],
+          "exclude": ["node_modules"]
+        }
+      ],
+      "dest": "Fragment.Documentation/client_metadata"
+    }
+  ],
+  "build": {
+    "content": [
+      {
+        "files": ["**/*.yml", "**/*.md", "toc.yml"],
+        "src": "Fragment.Documentation/",
+        "dest": "."
+      },
+      {
+        "files": ["**/*.yml", "**/*.md"],
+        "src": "Fragment.Documentation/api_metadata",
+        "dest": "Fragment.Documentation/api"
+      },
+      {
+        "files": ["**/*.yml", "**/*.md", "**/*.json", "**/*.j"],
+        "src": "Fragment.Documentation/client_metadata",
+        "dest": "Fragment.Documentation/client"
+      }
+    ],
+    "resource": [
+      {
+        "files": [
+          "resources/**/*.png",
+          "resources/**/*.jpg",
+          "resources/**/*.gif",
+          "resources/**/*.svg",
+          "resources/**/*.pdf",
+          "resources/**/*.css",
+          "resources/**/*.js"
+        ],
+        "exclude": [
+          "**/obj/**",
+          "_site/**"
+        ],
+        "src": "Fragment.Documentation"
+      }
+    ],
+    "overwrite": "specs/*.md",
+    "globalMetadata": {
+      "_appTitle": "Fragment.Docs",
+      "_enableSearch": true
+    },
+    "markdownEngineName": "markdig",
+    "dest": "Fragment.Generic.App/dist/_site"
+  }
+}

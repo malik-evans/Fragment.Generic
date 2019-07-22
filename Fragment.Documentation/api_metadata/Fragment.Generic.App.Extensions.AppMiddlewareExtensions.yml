@@ -1,0 +1,430 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  commentId: T:Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  id: AppMiddlewareExtensions
+  parent: Fragment.Generic.App.Extensions
+  children:
+  - Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation(IApplicationBuilder)
+  - Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation(IApplicationBuilder)
+  langs:
+  - csharp
+  - vb
+  name: AppMiddlewareExtensions
+  nameWithType: AppMiddlewareExtensions
+  fullName: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  type: Class
+  source:
+    id: AppMiddlewareExtensions
+    path: ''
+    startLine: 210
+  assemblies:
+  - cs.temp.dll
+  namespace: Fragment.Generic.App.Extensions
+  syntax:
+    content: public static class AppMiddlewareExtensions
+    content.vb: Public Module AppMiddlewareExtensions
+  inheritance:
+  - System.Object
+  inheritedMembers:
+  - System.Object.Equals(System.Object)
+  - System.Object.Equals(System.Object,System.Object)
+  - System.Object.GetHashCode
+  - System.Object.GetType
+  - System.Object.MemberwiseClone
+  - System.Object.ToString
+  - System.Object.ReferenceEquals(System.Object,System.Object)
+  modifiers.csharp:
+  - public
+  - static
+  - class
+  modifiers.vb:
+  - Public
+  - Module
+- uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation(IApplicationBuilder)
+  commentId: M:Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation(IApplicationBuilder)
+  id: UseApiDocumentation(IApplicationBuilder)
+  isExtensionMethod: true
+  parent: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseApiDocumentation(IApplicationBuilder)
+  nameWithType: AppMiddlewareExtensions.UseApiDocumentation(IApplicationBuilder)
+  fullName: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation(IApplicationBuilder)
+  type: Method
+  source:
+    id: UseApiDocumentation
+    path: ''
+    startLine: 212
+  assemblies:
+  - cs.temp.dll
+  namespace: Fragment.Generic.App.Extensions
+  syntax:
+    content: public static IApplicationBuilder UseApiDocumentation(this IApplicationBuilder app)
+    parameters:
+    - id: app
+      type: IApplicationBuilder
+    return:
+      type: IApplicationBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseApiDocumentation(app As IApplicationBuilder) As IApplicationBuilder
+  overload: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+- uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation(IApplicationBuilder)
+  commentId: M:Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation(IApplicationBuilder)
+  id: UseBrowserDocumentation(IApplicationBuilder)
+  isExtensionMethod: true
+  parent: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: UseBrowserDocumentation(IApplicationBuilder)
+  nameWithType: AppMiddlewareExtensions.UseBrowserDocumentation(IApplicationBuilder)
+  fullName: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation(IApplicationBuilder)
+  type: Method
+  source:
+    id: UseBrowserDocumentation
+    path: ''
+    startLine: 236
+  assemblies:
+  - cs.temp.dll
+  namespace: Fragment.Generic.App.Extensions
+  syntax:
+    content: public static IApplicationBuilder UseBrowserDocumentation(this IApplicationBuilder app)
+    parameters:
+    - id: app
+      type: IApplicationBuilder
+    return:
+      type: IApplicationBuilder
+    content.vb: >-
+      <ExtensionAttribute>
+
+      Public Shared Function UseBrowserDocumentation(app As IApplicationBuilder) As IApplicationBuilder
+  overload: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation*
+  modifiers.csharp:
+  - public
+  - static
+  modifiers.vb:
+  - Public
+  - Shared
+references:
+- uid: Fragment.Generic.App.Extensions
+  commentId: N:Fragment.Generic.App.Extensions
+  name: Fragment.Generic.App.Extensions
+  nameWithType: Fragment.Generic.App.Extensions
+  fullName: Fragment.Generic.App.Extensions
+- uid: System.Object
+  commentId: T:System.Object
+  parent: System
+  isExternal: true
+  name: Object
+  nameWithType: Object
+  fullName: System.Object
+- uid: System.Object.Equals(System.Object)
+  commentId: M:System.Object.Equals(System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object)
+  nameWithType: Object.Equals(Object)
+  fullName: System.Object.Equals(System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.Equals(System.Object,System.Object)
+  commentId: M:System.Object.Equals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: Equals(Object, Object)
+  nameWithType: Object.Equals(Object, Object)
+  fullName: System.Object.Equals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.Equals(System.Object,System.Object)
+    name: Equals
+    nameWithType: Object.Equals
+    fullName: System.Object.Equals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetHashCode
+  commentId: M:System.Object.GetHashCode
+  parent: System.Object
+  isExternal: true
+  name: GetHashCode()
+  nameWithType: Object.GetHashCode()
+  fullName: System.Object.GetHashCode()
+  spec.csharp:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetHashCode
+    name: GetHashCode
+    nameWithType: Object.GetHashCode
+    fullName: System.Object.GetHashCode
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.GetType
+  commentId: M:System.Object.GetType
+  parent: System.Object
+  isExternal: true
+  name: GetType()
+  nameWithType: Object.GetType()
+  fullName: System.Object.GetType()
+  spec.csharp:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.GetType
+    name: GetType
+    nameWithType: Object.GetType
+    fullName: System.Object.GetType
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.MemberwiseClone
+  commentId: M:System.Object.MemberwiseClone
+  parent: System.Object
+  isExternal: true
+  name: MemberwiseClone()
+  nameWithType: Object.MemberwiseClone()
+  fullName: System.Object.MemberwiseClone()
+  spec.csharp:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.MemberwiseClone
+    name: MemberwiseClone
+    nameWithType: Object.MemberwiseClone
+    fullName: System.Object.MemberwiseClone
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ToString
+  commentId: M:System.Object.ToString
+  parent: System.Object
+  isExternal: true
+  name: ToString()
+  nameWithType: Object.ToString()
+  fullName: System.Object.ToString()
+  spec.csharp:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ToString
+    name: ToString
+    nameWithType: Object.ToString
+    fullName: System.Object.ToString
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System.Object.ReferenceEquals(System.Object,System.Object)
+  commentId: M:System.Object.ReferenceEquals(System.Object,System.Object)
+  parent: System.Object
+  isExternal: true
+  name: ReferenceEquals(Object, Object)
+  nameWithType: Object.ReferenceEquals(Object, Object)
+  fullName: System.Object.ReferenceEquals(System.Object, System.Object)
+  spec.csharp:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+  spec.vb:
+  - uid: System.Object.ReferenceEquals(System.Object,System.Object)
+    name: ReferenceEquals
+    nameWithType: Object.ReferenceEquals
+    fullName: System.Object.ReferenceEquals
+    isExternal: true
+  - name: (
+    nameWithType: (
+    fullName: (
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: ', '
+    nameWithType: ', '
+    fullName: ', '
+  - uid: System.Object
+    name: Object
+    nameWithType: Object
+    fullName: System.Object
+    isExternal: true
+  - name: )
+    nameWithType: )
+    fullName: )
+- uid: System
+  commentId: N:System
+  isExternal: true
+  name: System
+  nameWithType: System
+  fullName: System
+- uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation*
+  commentId: Overload:Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation
+  name: UseApiDocumentation
+  nameWithType: AppMiddlewareExtensions.UseApiDocumentation
+  fullName: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseApiDocumentation
+- uid: IApplicationBuilder
+  isExternal: true
+  name: IApplicationBuilder
+  nameWithType: IApplicationBuilder
+  fullName: IApplicationBuilder
+- uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation*
+  commentId: Overload:Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation
+  name: UseBrowserDocumentation
+  nameWithType: AppMiddlewareExtensions.UseBrowserDocumentation
+  fullName: Fragment.Generic.App.Extensions.AppMiddlewareExtensions.UseBrowserDocumentation

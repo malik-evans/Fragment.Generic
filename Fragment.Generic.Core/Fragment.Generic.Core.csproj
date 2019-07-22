@@ -2,7 +2,11 @@
 
     <PropertyGroup>
         <TargetFramework>netcoreapp2.2</TargetFramework>
-        <RootNamespace>Fragment.Generic</RootNamespace>
     </PropertyGroup>
+
+    <ItemGroup>
+      <PackageReference Include="Faker.Net" Version="1.1.1" />
+      <PackageReference Include="Microsoft.EntityFrameworkCore" Version="2.2.6" />
+    </ItemGroup>
 
 </Project>

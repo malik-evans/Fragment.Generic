@@ -1,0 +1,22 @@
+### YamlMime:ManagedReference
+items:
+- uid: Fragment.Generic.App.Extensions
+  commentId: N:Fragment.Generic.App.Extensions
+  id: Fragment.Generic.App.Extensions
+  children:
+  - Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  langs:
+  - csharp
+  - vb
+  name: Fragment.Generic.App.Extensions
+  nameWithType: Fragment.Generic.App.Extensions
+  fullName: Fragment.Generic.App.Extensions
+  type: Namespace
+  assemblies:
+  - cs.temp.dll
+references:
+- uid: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  commentId: T:Fragment.Generic.App.Extensions.AppMiddlewareExtensions
+  name: AppMiddlewareExtensions
+  nameWithType: AppMiddlewareExtensions
+  fullName: Fragment.Generic.App.Extensions.AppMiddlewareExtensions
